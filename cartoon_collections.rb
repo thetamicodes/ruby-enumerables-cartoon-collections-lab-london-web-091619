@@ -13,7 +13,7 @@ end
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
   result = array & cheese_types
-    final = result.each 
+    final = result.each { |item| 
     return 
   else
     return nil
