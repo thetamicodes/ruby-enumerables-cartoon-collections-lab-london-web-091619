@@ -14,9 +14,10 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = array & cheese_types
    if result.any?
-    return item
+    return result[0]
   else
     return nil
+   end
   end 
 end
 
