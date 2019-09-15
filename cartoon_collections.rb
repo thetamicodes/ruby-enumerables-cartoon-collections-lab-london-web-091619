@@ -16,7 +16,11 @@ def find_the_cheese(array)
   overlap = []
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each { |item| overlap << item if cheese_types.include?(item) }
-  binding.pry
+  if overlap.any?
+    return overlap[0]  
+  else
+    return nil
+  end
 end
 
 
