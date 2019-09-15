@@ -12,15 +12,14 @@ end
 
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
-  result = array & cheese_types
-    final = result.each { |item| }
-      if final.any? == true  
-        return final[0]
-      else
-        return nil
-      end
+result = array & cheese_types
+  final = result.each { |item| }
+    if final.any? == true  
+      return final[0]
+    else
+      return nil
     end
-  end 
+  end
 end
 
 
