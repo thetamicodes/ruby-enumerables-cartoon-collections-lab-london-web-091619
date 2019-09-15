@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  result = #{array} & cheese_types
+  result = array & cheese_types
    if result.any?
     return result[0]
   else
