@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.any? { |item| item == cheese_types }
+  if array.any? { |item|  }
   return item
 else
   return nil
