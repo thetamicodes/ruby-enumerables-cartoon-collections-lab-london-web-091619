@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(array)
   array.each_with_index { |item, index| puts "#{index.next}. #{item}" }
 end
@@ -14,6 +16,7 @@ def find_the_cheese(array)
   overlap = []
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each { |item| overlap << item if cheese_types.include?(item) }
+  binding.pry
 end
 
 
