@@ -11,9 +11,9 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  # overlap = []
+  overlap = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each { |item| p item }
+  array.each { |item| overlap << item }
 end
 
 
